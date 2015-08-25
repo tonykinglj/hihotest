@@ -14,8 +14,10 @@ public class query{
 			ArrayList words=new ArrayList();
 			for(int i=0;i<num;i++){
 				words.add(br.read());
-				
+				System.out.println(words);
 			}
+			br.read();
 	}
+		br.close();
 	}
 }
